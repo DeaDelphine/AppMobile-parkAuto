@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldModelVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Form_modelVehicule" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Form_prix" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldAnneeModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Form_anneeModel" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Form_description" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Form_vehiculeImage" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/form_button_save_vehicules"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/button_save_vehicules" />
+</RelativeLayout>

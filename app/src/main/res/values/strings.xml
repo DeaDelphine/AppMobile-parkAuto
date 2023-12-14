@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ParkAutoAppPhone</string>
+    <string name="Form_modelVehicule">Modele Vehicule</string>
+    <string name="Form_anneeModel">Année - Modele</string>
+    <string name="Form_prix">Prix</string>
+    <string name="Form_description">Description</string>
+    <string name="Form_vehiculeImage">Image</string>
+    <string name="button_save_vehicules">Save vehicules</string>
+
+</resources>
